@@ -1,8 +1,9 @@
 # FinanZen API 💸
 
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![Java](https://img.shields.io/badge/Java-17%2B-blue)
+![Status](https://img.shields.io/badge/status-active%20development-green)
+![Java](https://img.shields.io/badge/Java-21-blue)
 ![Spring](https://img.shields.io/badge/Spring%20Boot-3.x-green)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A RESTful API for personal finance management, designed to manage transactions, categorize expenses and income, and provide financial summaries. This is a portfolio project to showcase backend development skills using the Java ecosystem.
 
@@ -17,7 +18,7 @@ A RESTful API for personal finance management, designed to manage transactions, 
 Below are the main technologies and tools used in the construction of this API:
 
 * **Backend:**
-    * Java 17+
+    * Java 21
     * Spring Boot 3
     * Spring Data JPA
     * Maven
@@ -35,7 +36,7 @@ To run the API locally, please follow the steps below.
 ### Prerequisites
 
 * [Git](https://git-scm.com)
-* [Java JDK 17](https://www.oracle.com/java/technologies/downloads/#java17) or later
+* [Java JDK 21](https://www.oracle.com/java/technologies/downloads/#java21) or later
 * [Docker](https://www.docker.com/products/docker-desktop/) and Docker Compose
 
 ### Steps
@@ -64,7 +65,7 @@ To run the API locally, please follow the steps below.
 
 ## 📝 API Endpoints
 
-Below is a list of the main available endpoints.
+Below is a list of the main available endpoints. *(This section should be updated as you build them)*
 
 #### Categories
 | HTTP Verb | Endpoint      | Description              |
@@ -80,13 +81,16 @@ Below is a list of the main available endpoints.
 | `PUT`     | `/transactions/{id}` | Updates an existing transaction.             |
 | `DELETE`  | `/transactions/{id}` | Deletes a transaction.                         |
 
-
 ## 🔮 Next Steps
 
 This project is under continuous development. Planned future features include:
 - [ ] Implement authentication and authorization with Spring Security and JWT.
 - [ ] Add advanced filters for transactions (by date range, category, type).
 - [ ] Develop an Angular frontend to consume this API.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
