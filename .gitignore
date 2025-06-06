@@ -1,0 +1,64 @@
+# Arquivos de ajuda
+HELP.md
+
+# Build artifacts (Maven)
+# Ignora a pasta de saída de compilação do Maven
+target/
+# Ignora arquivos JAR, WAR, etc.
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE-specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / Spring Tool Suite (STS)
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/  # Pasta de build do NetBeans/Gradle (se não for maven multi-module)
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+logs/
+*.tmp
+
+# Spring Boot specific
+# Arquivos relacionados a Hot Reload (dev tools)
+.devtools
+# Dump de memória do Actuator (se ativado)
+dump.rdb
+
+# Arquivos de ambiente e credenciais (exemplo)
+# É uma boa prática não versionar arquivos de configuração com dados sensíveis
+# Se você tiver um application-local.properties ou um .env com senhas, adicione aqui:
+# application-local.properties
+# .env
+# .env.*
+
+# Outros arquivos temporários ou de sistema
+*.bak
+*.swp
+*~
+.#*

@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: finanzen-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=fernando
+      - POSTGRES_PASSWORD=riggi
+      - POSTGRES_DB=finanzen-api
+      - POSTGRES_HOST_AUTH_METHOD=password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
