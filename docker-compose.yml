@@ -5,8 +5,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=fernando
-      - POSTGRES_PASSWORD=riggi
+      - POSTGRES_USER=${DATABASE_USERNAME}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
       - POSTGRES_DB=finanzen-api
       - POSTGRES_HOST_AUTH_METHOD=password
     volumes:

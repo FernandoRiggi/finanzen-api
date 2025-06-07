@@ -54,7 +54,7 @@ dump.rdb
 # É uma boa prática não versionar arquivos de configuração com dados sensíveis
 # Se você tiver um application-local.properties ou um .env com senhas, adicione aqui:
 # application-local.properties
-# .env
+.env
 # .env.*
 
 # Outros arquivos temporários ou de sistema
