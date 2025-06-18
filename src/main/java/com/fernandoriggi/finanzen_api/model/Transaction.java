@@ -1,5 +1,6 @@
 package com.fernandoriggi.finanzen_api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fernandoriggi.finanzen_api.enums.TransactionType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -35,6 +36,7 @@ public class Transaction {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id", nullable = false)
+    @JsonIgnore
     private Category category;
 
     @PrePersist
